@@ -1,0 +1,439 @@
+<html>
+
+<head>
+    <title>Industry Links</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/header.css">
+
+    <style>
+        a {
+            text-decoration: none;
+            outline: none;
+            border: none;
+        }
+
+        .emails {
+            display: inline-block;
+            text-decoration: none;
+            padding: 5%;
+            color: black;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        body {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .askaquestion {
+
+            margin: 0 auto;
+            padding: 3%;
+
+        }
+
+        .ContactUs h1 {
+            text-align: center;
+            font-size: 200%;
+            color: #065289;
+            font-weight: 700;
+            border-bottom: #21862C solid;
+            width: 15%;
+            padding: 1%;
+            margin: 3% auto;
+        }
+
+        .askaquestion h1 {
+            text-align: center;
+            font-size: 200%;
+            color: #065289;
+            font-weight: 700;
+            border-bottom: #21862C solid;
+            width: 15%;
+            padding: 1%;
+            margin: 3% auto;
+        }
+
+        .askaquestion input {
+            border: solid #8C8C8C 3px;
+            background-color: white;
+            border-radius: 10px;
+            font-size: 160%;
+            padding: 2%;
+            width: 100%;
+
+        }
+
+        .askaquestion textarea {
+            border: solid #8C8C8C 3px;
+            background-color: white;
+            border-radius: 10px;
+            font-size: 160%;
+            clear: both;
+            margin-top: 1%;
+            padding: 2%;
+
+        }
+
+        .askaquestion button {
+            display: block;
+            margin-top: 1%;
+            border: solid #8C8C8C 3px;
+            background-color: white;
+            border-radius: 10px;
+            font-size: 130%;
+            margin: 0 auto;
+            width: 30%;
+            padding: 2%;
+            margin-top: 1%;
+        }
+
+        .row {
+            padding: 5%;
+        }
+
+        .logos {
+            margin: 0 auto;
+            display: block;
+        }
+
+        .logos img {
+            margin: 0 auto;
+            display: block;
+            width: 60%;
+            max-height: 200px;
+
+        }
+
+        @media only screen and (max-width:1800px) {
+            .OurPromise h1 {
+                width: 25%;
+                font-size: 150%;
+            }
+
+
+            .OurPromise p {
+                font-size: 125%;
+            }
+            .sect img {
+                width: 95%;
+            }
+            .sect p {
+                font-size: 125%;
+            }
+            .askaquestion h1 {
+                width: 25%;
+                clear: both;
+                font-size: 150%;
+            }
+            .askaquestion input {
+                font-size: 125%;
+            }
+            .askaquestion button {
+                font-size: 125%;
+            }
+        }
+
+        .board {
+            padding: 3%;
+            z-index: -2;
+            background-image: url("../images/industrylinks.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            clear: both;
+            height: 65%;
+            background-position: center;
+        }
+
+        .board h1 {
+            font-style: italic;
+            color: white;
+            font-size: 200%;
+            font-weight: 800;
+        }
+
+  @media only screen and (max-width:1200px) {
+
+.board {
+    height: 33%;
+}
+
+}
+
+        .profile {
+            width: 35%;
+            height: 40%;
+            z-index: 5;
+            margin: 0 auto;
+            padding-top: 5%;
+            float: left;
+            display: inline-block;
+        }
+
+        .profile img {
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mainText {
+
+            width: 90%;
+
+            font-size: 120%;
+            margin: 1% 5% 1% 5%;
+            line-height: 2;
+            text-indent: 50px;
+            color: #414141;
+            padding: 2%;
+
+            margin: 0 auto;
+        }
+
+        .profile p {
+            text-align: center;
+            font-size: 150%;
+            color: #21862C;
+            font-weight: 700;
+
+        }
+
+        .textHeader {
+            padding: 2% 2% 1% 2%;
+            color: #065289;
+            font-weight: 700;
+            border-bottom: #21862C solid;
+            text-align: center;
+            width: 45%;
+            margin: 0 auto;
+        }
+
+        .sign {
+
+            width: 100%;
+        }
+
+        .sign img {
+            display: block;
+            margin: 0 auto;
+            width: 25%;
+        }
+
+        .sign p {
+            text-align: center;
+            font-size: 140%;
+            padding: 2%;
+
+        }
+
+        @media only screen and (max-width:1600px) {
+            .maintext {
+                font-size: 100%;
+            }
+            .textHeader {
+                font-size: 150%;
+            }
+            .profile {
+                padding-top: 10%;
+            }
+        }
+
+        .img-responsive {
+            padding: 3%;
+
+        }
+
+        .row {
+            margin: 0;
+        }
+
+        @media only screen and (max-width:1200px) {
+            .ContactUs h1 {
+                width: 30%;
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            .ContactUs h1 {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <a href="javascript:void(0);" class="menu" onclick="openNav()">
+            <img src="../images/menu.png"></img>
+        </a>
+        <a style="text-decoration: none;" href="../index.html">
+            <img src="../images/TantoLogo.png" class="logo">
+        </a>
+        <div style="float: right;width:70%;">
+            <div class="contact">
+                <a href="industrylinks.html">Industry Links</a>
+                <a href="carrer.html" style="border-left: solid #414141 1px;border-right: solid #414141 1px;">Career Opportunities</a>
+                <a href="contactus.html">Contact Us</a>
+            </div>
+            <br>
+            <div class="tabs">
+                <a href="../index.html">Home</a>
+                <a href="ourstory.html">The Tanto Story</a>
+                <a href="constructionservices.html">Construction Services</a>
+                <a href="ourclients.html">Our Clients</a>
+                <a href="bodyofwork.html">Body of Work</a>
+            </div>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="ourstory.html">The Tanto Story</a>
+        <a href="constructionservices.html">Construction Services</a>
+        <a href="ourclients.html">Our Clients</a>
+        <a href="bodyofwork.html">Body of Work</a>
+        <hr style="width: 75%;margin: 0 auto">
+        <div class="bottom">
+            <a href="industrylinks.html">Industry Links</a>
+            <a href="carrer.html" style="border-left: solid #414141 1px;border-right: solid #414141 1px;">Career Opportunities</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+    <div class="board">
+    </div>
+    <h1 style="text-align: center;font-size: 175%">Tanto is a proud member of the following industry organizations:</h1>
+    <div class="ContactUs">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logos">
+                    <a href="http://www.metgcsa.org/">
+                        <img src="../images/new_met_logo_for_toc.png" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="logos">
+                    <a href="http://www.irrigation.org/">
+                        <img src="../images/irrigation-association.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logos">
+                    <a href="https://www.gcsaa.org/">
+                        <img src="../images/logo-gcsaa.png" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="logos">
+                    <a href="https://www.gcbaa.org/">
+                        <img src="../images/GCBAA.jpg" style="width:25%" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="logos">
+                    <a href="http://www.usga.org/">
+                        <img src="../images/usga.jpg"style="width:40%" />
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logos">
+                    <a href="http://www.ngf.org/">
+                        <img src="../images/naional golf foundation.jpg" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="logos">
+                    <a href="http://asic.org/">
+                        <img src="../images/asic.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logos">
+                    <a href="https://www.cicaweb.org/">
+                        <img src="../images/CICAlogo.png" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-4">
+                    <div class="logos">
+                        <a href=" http://hvgcsa.org//">
+                            <img src="../images/hudson valley.jpg" />
+                        </a>
+                    </div>
+    
+                </div>
+                <div class="col-md-4">
+                    <div class="logos">
+                        <a href=" https://www.turfnet.com/">
+                            <img src="../images/turfNet.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logos">
+                        <a href=" https://gcsane.org/">
+                            <img src="../images/New England.jpg" />
+                        </a>
+                    </div>
+    
+                </div>
+            </div>
+    </div>
+
+    <div class="footer">
+        <div class="list">
+            <h1>Resources</h1>
+            <a href="industrylinks.html" style="font-weight: 700;">Industry Links</a>
+            <a href="contactus.html" style="font-weight: 700;">Contact Us</a>
+            <a href="contactus.html" style="font-weight: 700;">Career Opportunities</a>
+        </div>
+        <div class="list">
+            <h1>Headquaters</h1>
+            <p>
+                Tanto Irrigation, LLC.
+                <br> 5 North Payne Street
+                <br> Elmsford, New York 10523
+            </p>
+        </div>
+
+    </div>
+</body>
+<script src="../scripts.js"></script>
+
+</html>
