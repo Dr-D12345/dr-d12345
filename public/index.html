@@ -309,6 +309,7 @@
         /* Add an italic font style to all quotes */
         q {
             font-style: italic;
+            font-size: 150%;
         }
 
         /* Add a blue color to the author */
@@ -432,7 +433,7 @@
 
         </div>
         <div class="Quotes">
-            <h1 style="color:rgb(161, 161, 161);text-align: center;margin-bottom: 0">In Their Words</h1>
+            <h1 style="color:rgb(161, 161, 161);text-align: center;margin-bottom: 0">In Their Own Words</h1>
             <div class="slideshow-container">
               <div class="QuotesSlide">
                     <q>The work was always out of the top drawer, you strategically maneuvered around the course with the
@@ -663,8 +664,11 @@
                 showQuoteSlides(slideQuoteIndex += 1)
               
             }
-            setInterval(timerQuotes, 7000);
-
+            function mainSlides(){
+                showSlides(slideIndex+=1)
+            }
+            setInterval(timerQuotes, 12000);
+            setInterval(mainSlides, 10000)
 
 
         </script>
