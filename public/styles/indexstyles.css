@@ -1,31 +1,38 @@
-
-
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-h1{
-    margin-top:2%;
-    margin-bottom:2%;
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer
 }
-.OurPromise{
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.OurPromise {
     padding: 3%;
-    z-index:-3;
-
+    z-index: -3;
 }
+
 .vcenter {
     display: inline-block;
     float: none;
-    width:49%;
+    width: 49%;
 }
-marquee p{
+
+marquee p {
     vertical-align: middle;
-display:inline-block;
-margin-left:30%;
-margin-right:30%;
-  clear: both;
-  
-  width: 100%;
-  word-break:break-all;
-  font-size: 2em;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 30%;
+    clear: both;
+    width: 100%;
+    word-break: break-all;
+    font-size: 2em;
     font-weight: 300;
 }
 
@@ -132,27 +139,27 @@ margin-right:30%;
   81.5%, 90.5% { left: 25%; opacity: 1; }
   90%, 100% { left: 110%; opacity: 0; }
 }*/
-h1{
+
+h1 {
     padding: 1%;
-   margin-bottom:3%;
+    margin-bottom: 3%;
 }
 
-
-.Quotes{
+.Quotes {
     background: white;
-    
-
     display: block;
 }
-.arrows{
+
+.arrows {
     cursor: pointer;
     z-index: 10;
     position: relative;
-     top: 50%;
-     font-size: 200%;
-     padding: 1%;
+    top: 50%;
+    font-size: 200%;
+    padding: 1%;
 }
-.OurPromise h1{
+
+.OurPromise h1 {
     text-align: center;
     font-size: 200%;
     color: #065289;
@@ -162,7 +169,8 @@ h1{
     width: 15%;
     margin: 0 auto;
 }
-.OurPromise p{
+
+.OurPromise p {
     text-align: center;
     color: #414141;
     font-size: 120%;
@@ -170,17 +178,15 @@ h1{
     padding: 2%;
     width: 80%;
     margin: 0 auto;
-    
-
 }
-.inthenews{
-   
+
+.inthenews {
     background-color: #D6ECFF;
     padding: 3%;
     width: 100%;
-
 }
-.inthenews h1{
+
+.inthenews h1 {
     text-align: center;
     font-size: 200%;
     color: #065289;
@@ -189,28 +195,32 @@ h1{
     width: 15%;
     margin: 0 auto;
 }
-.sect{
-    padding-top:3%; 
- width: 100%;
+
+.sect {
+    padding-top: 3%;
+    width: 100%;
 }
-.sect h4{
+
+.sect h4 {
     font-size: 180%;
     font-weight: 700;
 }
-.sect p{
+
+.sect p {
     width: 100%;
     font-size: 150%;
 }
-.sect img{
+
+.sect img {
     margin: 0 auto;
 }
-.askaquestion{
 
+.askaquestion {
     background-color: #D6D6D6;
-    padding:3%;
-
+    padding: 3%;
 }
-.askaquestion h1{
+
+.askaquestion h1 {
     text-align: center;
     font-size: 200%;
     color: #065289;
@@ -219,148 +229,131 @@ h1{
     width: 15%;
     margin: 0 auto;
 }
-.askaquestion input{
+
+.askaquestion input {
     border: solid #8C8C8C 3px;
     background-color: white;
     border-radius: 10px;
-    font-size:160%;
+    font-size: 160%;
     padding: 2%;
     width: 100%;
-
 }
-.askaquestion textarea{
+
+.askaquestion textarea {
     border: solid #8C8C8C 3px;
     background-color: white;
     border-radius: 10px;
-    font-size:160%;
-   clear: both;
-    margin-top:1%;
+    font-size: 160%;
+    clear: both;
+    margin-top: 1%;
     padding: 2%;
-
 }
-.askaquestion button{
+
+.askaquestion button {
     display: block;
     margin-top: 1%;
     border: solid #8C8C8C 3px;
     background-color: white;
     border-radius: 10px;
-    font-size:130%;
+    font-size: 130%;
     margin: 0 auto;
     width: 30%;
     padding: 2%;
-    margin-top:1%;
-}
-@media only screen and (max-width:1800px){
-.OurPromise h1{
-    width: 25%;
-    font-size: 150%;
+    margin-top: 1%;
 }
 
-
-.OurPromise p{
-    font-size: 125%;
-}
-.sect img{
-    width: 95%;
-}
-.sect p{
-    font-size: 125%;
-}
-.askaquestion h1{
-    width: 25%;
-    clear: both;
-    font-size: 150%;
-}
-.askaquestion input{
-    font-size: 125%;
-}
-.askaquestion button{
-    font-size: 125%;
-}
-
-}
-
-@media only screen and (max-width:1600px){
-    .Quotes h1{
-
+@media only screen and (max-width:1800px) {
+    .OurPromise h1 {
+        width: 25%;
         font-size: 150%;
-        }
-
-.OurPromise h1{
-    font-size: 130%;
-}
-.OurPromise p{
-    font-size: 120%;
-}
-.sect img{
-    width: 80%;
-}
-.inthenews h1{
-    font-size: 130%;
-}
-.sect p{
-    font-size: 120%;
-}
-.sect h4{
-    font-size: 120%;
-}    
-marquee p{
-
-    font-size: 90%;
-
     }
-
-
+    .OurPromise p {
+        font-size: 125%;
+    }
+    .sect img {
+        width: 95%;
+    }
+    .sect p {
+        font-size: 125%;
+    }
+    .askaquestion h1 {
+        width: 25%;
+        clear: both;
+        font-size: 150%;
+    }
+    .askaquestion input {
+        font-size: 125%;
+    }
+    .askaquestion button {
+        font-size: 125%;
+    }
 }
-@media only screen and (max-width:1200px){
-    .Quotes h1{
 
+@media only screen and (max-width:1600px) {
+    .Quotes h1 {
+        font-size: 150%;
+    }
+    .OurPromise h1 {
+        font-size: 130%;
+    }
+    .OurPromise p {
+        font-size: 120%;
+    }
+    .sect img {
+        width: 80%;
+    }
+    .inthenews h1 {
+        font-size: 130%;
+    }
+    .sect p {
+        font-size: 120%;
+    }
+    .sect h4 {
+        font-size: 120%;
+    }
+    marquee p {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .Quotes h1 {
         font-size: 100%;
-        }
-
-      
-    .OurPromise p{
-       font-size: 95%; 
-       width: 100%;
     }
-    .OurPromise{
+    .OurPromise p {
+        font-size: 95%;
+        width: 100%;
+    }
+    .OurPromise {
         width: 95%;
         margin: 0 auto;
     }
-    .sect p{
+    .sect p {
         font-size: 95%;
     }
-    
-    marquee p{
- 
+    marquee p {
         font-size: 80%;
-    
-        }
+    }
 }
-@media only screen and (max-width:600px){
-    marquee p{
-   
-    margin-left:50%;
-    margin-right:50%;
-    font-size: 60%;
 
+@media only screen and (max-width:600px) {
+    marquee p {
+        margin-left: 50%;
+        margin-right: 50%;
+        font-size: 60%;
     }
-    
     .Quotes {
-    
-        padding-top:2%;
-        padding-bottom:2%;
-
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
-    .inthenews h1{
-        width:30%;
+    .inthenews h1 {
+        width: 30%;
     }
     .inthenews {
         margin-bottom: 2%;
     }
-    .askaquestion h1{
+    .askaquestion h1 {
         width: 50%;
-        margin:1% auto;
+        margin: 1% auto;
     }
-      
 }
