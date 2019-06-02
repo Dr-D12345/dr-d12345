@@ -8,8 +8,8 @@ app.use(express.static(__dirname + "/public", {
     immutable: true
 }));
 
-app.listen(5000, () => {
+app.listen(3000, () => {
 
 
-    console.log("Listening at localhost:5000")
+    console.log("Listening at localhost:3000")
 })

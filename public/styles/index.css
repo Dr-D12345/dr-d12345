@@ -9,6 +9,7 @@ asdad
 */
 
 body {
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -102,7 +103,7 @@ h1 {
 
 .projects {
     padding-top: 30vh;
-    padding-left: 5vw;
+
 }
 
 .projects-header {
@@ -110,6 +111,8 @@ h1 {
     padding: 1vh;
     width: 15vw;
     font-size: 2.5em;
+    margin-left: 5vw;
+    text-align: center;
 }
 
 .projects-spotlight-item {
@@ -119,6 +122,8 @@ h1 {
     width: 70vw;
     margin: 0 auto;
 }
+
+
 
 .projects-spotlight-item h1 {
     font-size: 2.2em;
@@ -161,3 +166,38 @@ h1 {
     width: 13vw;
 }
 
+.projects-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 5vw;
+}
+
+.projects-list-item {
+    margin: 1vw;
+    width: 10vw;
+    padding: 5vh;
+    border-radius: 15px;
+    border: grey solid 1px;
+}
+
+.projects-list-item h1 {
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+.projects-list-item img {
+    margin: 0 auto;
+    display: block;
+}
+
+.whoami {}
+.whoami h1{
+    border-bottom: rgba(0, 0, 0, .52) solid 1px;
+    padding: 1vh;
+    width: 15vw;
+    font-size: 2.5em;
+    margin-left: 5vw;
+    text-align: center;
+    
+}
