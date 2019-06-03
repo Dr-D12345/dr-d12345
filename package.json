@@ -3,13 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
-  "bundlesize": [
-    {
-      "path": "./public/*/*.*",
-      "maxSize": "170 kB"
-    }
-  ],
   "scripts": {
     "start": "nodemon",
     "test": "bundlesize"
