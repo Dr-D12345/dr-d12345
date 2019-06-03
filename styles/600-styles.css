@@ -43,10 +43,14 @@
     .send-desc{
         text-align: center;
         align-items: center;
+        margin: 0 auto;
 
     }
     .projects-list-item {
         width: 100%;
+    }
+    .icon-set {
+        flex-direction: column;
     }
    
   }
