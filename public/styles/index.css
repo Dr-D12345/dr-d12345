@@ -103,7 +103,6 @@ h1 {
 
 .projects {
     padding-top: 30vh;
-
 }
 
 .projects-header {
@@ -122,8 +121,6 @@ h1 {
     width: 70vw;
     margin: 0 auto;
 }
-
-
 
 .projects-spotlight-item h1 {
     font-size: 2.2em;
@@ -183,7 +180,6 @@ h1 {
 .projects-list-item h1 {
     font-size: 1.2em;
     text-align: center;
-
 }
 
 .projects-list-item img {
@@ -191,13 +187,85 @@ h1 {
     display: block;
 }
 
-.whoami {}
-.whoami h1{
+.whoami {
+    margin: 10vh 0;
+}
+
+.whoami h1 {
     border-bottom: rgba(0, 0, 0, .52) solid 1px;
     padding: 1vh;
     width: 15vw;
     font-size: 2.5em;
     margin-left: 5vw;
     text-align: center;
+}
+
+.iam {
+    padding: 10vh 0;
+    background-image: url("../images//backgroundimages.svg");
+    height: 100vh;
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.iam-pictures {
+    max-width: 30vw;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.iam-speaking {
+    -webkit-transform-origin-z: 10px;
+    margin: -10vh auto 0 auto;
+    z-index: 7;
+}
+
+.iam-android {
+    margin: -10vh 0 0 6vw;
+    z-index: -5;
+}
+
+.iam-leader {
+    margin: -60vh 6vw 0 0vw;
+    z-index: -5;
+    float: right;
+}
+.i-am-about{
+    width: 60vw;
+    clear: both;
+    margin: 10vh auto;
+    text-align: center;
+    display: block;
+    color:#707070;
+    font-size: 1.5em;
+
+}
+.contact{
+    margin: 10vh 0 50vh 0;
+}
+.icon-set{
+    width: 60vw;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     
+}
+.icon-set-item{
+    cursor:pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #113F67;
+    font-size:2.5em;
+    font-weight: 700;
+
 }
