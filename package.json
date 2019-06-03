@@ -1,0 +1,26 @@
+{
+  "name": "derek-site-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "bundlesize": [
+    {
+      "path": "./public/*/*.*",
+      "maxSize": "170 kB"
+    }
+  ],
+  "scripts": {
+    "start": "nodemon",
+    "test": "bundlesize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "bundlesize": "^0.17.2"
+  }
+}
