@@ -10,10 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "bundlesize": "^0.17.2"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
